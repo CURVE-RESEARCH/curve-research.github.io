@@ -26,6 +26,7 @@ body {
 
 .navbar{
     background: black;
+    background-image: linear-gradient(rgb(19, 19, 19) 70%, rgb(83, 83, 83, 0.428));
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: rgba(83, 83, 83, 0.428);
@@ -304,15 +305,14 @@ body {
   .prof-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin: 1vw 0;
-    padding: 1vh 3vw 0vh;
-    max-width: 80%;
+    margin: 2vh 2vw;
   }
 
       .prof-container > i{
         margin-right: 15px;
-        transition: all .15s ease-in-out;
+        transition: all .05s ease-in-out;
       }
 
       .prof-container > i:hover{
@@ -323,15 +323,13 @@ body {
       }
       
 
-
-
   .prof-card{
+    align-self: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     background: white;
-    margin-right: 63px;
     transition: all .15s ease-in-out;
     -webkit-box-shadow: 0px 10px 38px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 38px -8px rgba(0,0,0,0.75);
@@ -346,7 +344,6 @@ body {
 
   .prof-info{
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     word-wrap: break-word;    
@@ -391,9 +388,8 @@ body {
     padding-bottom: 0px;
   }
 
-
   .prof-option-container{
-    margin-left: 30px;
+    margin-left: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -417,6 +413,7 @@ body {
     margin: 3px;
     transition: all 0.1s ease-in-out;
   }
+
   .message-button{
     background-color: var(--theme-color);
     color: white;
@@ -439,8 +436,6 @@ body {
       .see-profile:hover, .message-button:hover{
         transform: scale(1.05);
       }
-
-
   
 .prof-card  .pro-pic{
   align-self: center;
@@ -457,11 +452,10 @@ body {
   border-color: var(--font-color);
 }
 
-
-
 #coming-soon{
+  user-select: none;
   position: absolute;
-  top: 45%;
+  top: 300px;
   color: rgba(0, 0, 0, 0.349);
   font-family: 'Alegreya Sans SC', sans-serif;
 }
