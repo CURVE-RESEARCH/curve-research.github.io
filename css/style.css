@@ -454,7 +454,7 @@ body {
 #coming-soon{
   user-select: none;
   position: absolute;
-  top: 45%;
+  top: 55%;
   color: rgba(0, 0, 0, 0.349);
   font-family: 'Alegreya Sans SC', sans-serif;
 }
