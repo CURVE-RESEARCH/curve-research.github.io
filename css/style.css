@@ -284,12 +284,12 @@ body {
 .quick-apply{
   background-color: var(--theme-color);
   width: auto;
-  padding: 0.75em 1em;
+  padding: 0.75em em;
   cursor: pointer;
   border-radius: 30px;
   align-self: center;
   color: white;
-  transition: all .15s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
     .quick-apply > i{
@@ -298,6 +298,8 @@ body {
 
     .quick-apply:hover{
       transform: scale(1.05);
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.0, 1.0);
     }
 
 
