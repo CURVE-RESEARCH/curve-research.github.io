@@ -26,7 +26,6 @@ body {
 
 .navbar{
     background: black;
-    background-image: linear-gradient(rgb(19, 19, 19) 70%, rgb(83, 83, 83, 0.428));
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: rgba(83, 83, 83, 0.428);
@@ -455,7 +454,7 @@ body {
 #coming-soon{
   user-select: none;
   position: absolute;
-  top: 300px;
+  top: 45%;
   color: rgba(0, 0, 0, 0.349);
   font-family: 'Alegreya Sans SC', sans-serif;
 }
